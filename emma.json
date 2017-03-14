@@ -1,1 +1,151 @@
-{"name":"emma","created":"2017-03-13T04:43:10.899Z","intents":[{"intent":"Account_Statement_to_email_id","created":"2017-03-13T04:48:55.251Z","updated":"2017-03-13T04:48:55.251Z","examples":[{"text":"can account statement be sent as email","created":"2017-03-13T04:48:55.251Z","updated":"2017-03-13T04:48:55.251Z"},{"text":"can you forward me the last transaction details on mail","created":"2017-03-13T04:48:55.251Z","updated":"2017-03-13T04:48:55.251Z"},{"text":"can you mail my account statement","created":"2017-03-13T04:48:55.251Z","updated":"2017-03-13T04:48:55.251Z"},{"text":"can you send me an email about my bank balance","created":"2017-03-13T04:48:55.251Z","updated":"2017-03-13T04:48:55.251Z"},{"text":"please send a mail to me","created":"2017-03-13T04:48:55.251Z","updated":"2017-03-13T04:48:55.251Z"}],"description":null},{"intent":"Balance_Enquiry","created":"2017-03-13T04:46:36.617Z","updated":"2017-03-13T04:46:36.617Z","examples":[{"text":"can you tell me about my balance","created":"2017-03-13T04:46:36.617Z","updated":"2017-03-13T04:46:36.617Z"},{"text":"how much did i spend last time","created":"2017-03-13T04:46:36.617Z","updated":"2017-03-13T04:46:36.617Z"},{"text":"how much money is present in my account","created":"2017-03-13T04:46:36.617Z","updated":"2017-03-13T04:46:36.617Z"},{"text":"how much money was deposited recently to my account","created":"2017-03-13T04:46:36.617Z","updated":"2017-03-13T04:46:36.617Z"},{"text":"What is my bank balance","created":"2017-03-13T04:46:36.617Z","updated":"2017-03-13T04:46:36.617Z"},{"text":"what was the amount of money i withdrew in last transaction","created":"2017-03-13T04:46:36.617Z","updated":"2017-03-13T04:46:36.617Z"}],"description":null},{"intent":"fund_transfer","created":"2017-03-14T11:15:25.900Z","updated":"2017-03-14T12:54:37.730Z","examples":[{"text":"Can you transfer X amount to Y account number?","created":"2017-03-14T12:07:57.304Z","updated":"2017-03-14T12:07:57.304Z"},{"text":"I want go transfer X ammount to account number Y.","created":"2017-03-14T11:29:08.412Z","updated":"2017-03-14T12:07:33.111Z"},{"text":"Please, transfer X rupees to account number Y.","created":"2017-03-14T11:29:34.022Z","updated":"2017-03-14T11:29:34.022Z"},{"text":"Transfer X amount to account number Y.","created":"2017-03-14T11:30:12.653Z","updated":"2017-03-14T12:11:40.514Z"},{"text":"Transfer X rupees to account number Y.","created":"2017-03-14T11:31:22.709Z","updated":"2017-03-14T11:31:30.947Z"},{"text":"transfer X to Y","created":"2017-03-14T12:54:37.730Z","updated":"2017-03-14T12:54:37.730Z"},{"text":"Will you send X amount to Y account?","created":"2017-03-14T12:08:04.810Z","updated":"2017-03-14T12:08:04.810Z"}],"description":null},{"intent":"goodbye","created":"2017-03-13T05:42:37.029Z","updated":"2017-03-13T15:48:39.906Z","examples":[{"text":"bi","created":"2017-03-13T05:42:37.029Z","updated":"2017-03-13T05:42:37.029Z"},{"text":"bye","created":"2017-03-13T05:42:37.029Z","updated":"2017-03-13T05:42:37.029Z"},{"text":"catch you later","created":"2017-03-13T15:48:39.906Z","updated":"2017-03-13T15:48:39.906Z"},{"text":"good bye","created":"2017-03-13T15:48:24.771Z","updated":"2017-03-13T15:48:24.771Z"},{"text":"see you later","created":"2017-03-13T05:42:37.029Z","updated":"2017-03-13T05:42:37.029Z"},{"text":"tata","created":"2017-03-13T05:42:37.029Z","updated":"2017-03-13T05:42:37.029Z"}],"description":null},{"intent":"hello","created":"2017-03-13T05:41:29.897Z","updated":"2017-03-13T15:47:54.725Z","examples":[{"text":"good afternoon","created":"2017-03-13T15:47:54.725Z","updated":"2017-03-13T15:47:54.725Z"},{"text":"good evening","created":"2017-03-13T15:47:35.575Z","updated":"2017-03-13T15:47:35.575Z"},{"text":"good morning","created":"2017-03-13T05:42:08.452Z","updated":"2017-03-13T05:42:08.452Z"},{"text":"haha","created":"2017-03-13T05:41:55.934Z","updated":"2017-03-13T05:41:55.934Z"},{"text":"hello","created":"2017-03-13T05:41:45.877Z","updated":"2017-03-13T05:41:45.877Z"},{"text":"hey","created":"2017-03-13T15:46:57.058Z","updated":"2017-03-13T15:46:57.058Z"},{"text":"hi","created":"2017-03-13T05:41:49.611Z","updated":"2017-03-13T05:41:49.611Z"},{"text":"yo","created":"2017-03-13T05:41:52.654Z","updated":"2017-03-13T05:41:52.654Z"}],"description":null}],"updated":"2017-03-14T12:55:27.347Z","entities":[{"type":null,"entity":"amount","source":null,"values":[{"value":"dinar","created":"2017-03-14T12:09:06.984Z","updated":"2017-03-14T12:09:06.984Z","metadata":null,"synonyms":[]},{"value":"dollors","created":"2017-03-14T12:08:46.720Z","updated":"2017-03-14T12:08:46.720Z","metadata":null,"synonyms":[]},{"value":"euros","created":"2017-03-14T12:08:57.102Z","updated":"2017-03-14T12:08:57.102Z","metadata":null,"synonyms":[]},{"value":"rupees","created":"2017-03-14T12:08:37.408Z","updated":"2017-03-14T12:08:37.408Z","metadata":null,"synonyms":[]}],"created":"2017-03-14T12:08:27.337Z","updated":"2017-03-14T12:08:27.337Z","open_list":false,"description":null}],"language":"en","metadata":null,"description":"a chatbot","dialog_nodes":[{"go_to":null,"output":null,"parent":"node_8_1489401436432","context":null,"created":"2017-03-13T15:50:46.083Z","updated":"2017-03-13T15:50:46.083Z","metadata":null,"conditions":null,"description":null,"dialog_node":"node_1_1489420242986","previous_sibling":null},{"go_to":null,"output":{},"parent":null,"context":null,"created":"2017-03-14T12:36:58.265Z","updated":"2017-03-14T12:52:43.057Z","metadata":null,"conditions":"#fund_transfer","description":null,"dialog_node":"transfer","previous_sibling":"initiation"},{"go_to":null,"output":{"text":{"values":["Sure can you provide your Registered Account Number ?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-03-13T04:57:01.536Z","updated":"2017-03-13T05:35:38.469Z","metadata":null,"conditions":"#Balance_Enquiry","description":null,"dialog_node":"node_2_1489400821984","previous_sibling":"node_8_1489401436432"},{"go_to":null,"output":{"text":{"values":["Sure can you provide your Registered Account number ? Mail will be sent to your Registered Email Address."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-03-13T05:07:15.951Z","updated":"2017-03-13T05:34:43.865Z","metadata":null,"conditions":"#Account_Statement_to_email_id","description":null,"dialog_node":"node_8_1489401436432","previous_sibling":"transfer"},{"go_to":null,"output":{"text":{"values":["Sure can you provide me your account number and registered email ID","May i have your account number and registered email ID"],"selection_policy":"random"}},"parent":"node_2_1489400821984","context":null,"created":"2017-03-13T05:05:56.069Z","updated":"2017-03-13T05:10:45.340Z","metadata":null,"conditions":"#Account_Statement_to_emai","description":null,"dialog_node":"node_5_1489401355485","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["Wonderful Day to you","May the force be with you","Hakuna Matata"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-03-13T05:05:13.175Z","updated":"2017-03-13T05:43:52.931Z","metadata":null,"conditions":"#hello","description":null,"dialog_node":"timewaste","previous_sibling":"node_2_1489400821984"},{"go_to":null,"output":{"text":{"values":["See you later","Cool Bro Bye","Sayonara","Adios Amigo"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-03-13T05:43:56.715Z","updated":"2017-03-13T05:45:24.184Z","metadata":null,"conditions":"#goodbye","description":null,"dialog_node":"node_19_1489403637143","previous_sibling":"timewaste"},{"go_to":null,"output":{"text":{"values":["Hi I'm Emma. How may I help You?","Yo, I am Emma. How may I help You?","hey. How may I help You?","hello. How may I help You?","hey. It's emma this side. How may I help You?"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-03-13T04:56:22.270Z","updated":"2017-03-14T12:10:22.611Z","metadata":null,"conditions":"#hello","description":null,"dialog_node":"initiation","previous_sibling":null},{"type":"response_condition","go_to":null,"output":{"text":{"values":["Sure, I will do it for you. X @amount will be transferred to account number Y."],"selection_policy":"sequential"}},"parent":"transfer","context":null,"created":"2017-03-14T12:52:42.229Z","updated":"2017-03-14T12:55:22.205Z","metadata":null,"conditions":"@amount","description":null,"dialog_node":"node_3_1489495961848","previous_sibling":null}],"workspace_id":"80a1ad92-fd1f-450e-89b6-e8f7feef4541","counterexamples":[{"text":"love you","created":"2017-03-13T15:56:51.690Z","updated":"2017-03-13T15:56:51.690Z"}]}
+{"name":"emma","created":"2017-03-13T04:43:10.899Z","intents":[
+  
+  {"intent":"Account_Statement_to_email_id","created":"2017-03-13T04:48:55.251Z",
+   "updated":"2017-03-13T04:48:55.251Z","examples":[
+    {"text":"can account statement be sent as email","created":"2017-03-13T04:48:55.251Z",
+     "updated":"2017-03-13T04:48:55.251Z"},
+    {"text":"can you forward me the last transaction details on mail","created":"2017-03-13T04:48:55.251Z",
+     "updated":"2017-03-13T04:48:55.251Z"},
+    {"text":"can you mail my account statement","created":"2017-03-13T04:48:55.251Z",
+     "updated":"2017-03-13T04:48:55.251Z"},
+    {"text":"can you send me an email about my bank balance","created":"2017-03-13T04:48:55.251Z",
+     "updated":"2017-03-13T04:48:55.251Z"},
+    {"text":"please send a mail to me","created":"2017-03-13T04:48:55.251Z",
+     "updated":"2017-03-13T04:48:55.251Z"}],
+   "description":null},
+  
+  {"intent":"Balance_Enquiry","created":"2017-03-13T04:46:36.617Z",
+   "updated":"2017-03-13T04:46:36.617Z","examples":[
+    {"text":"can you tell me about my balance","created":"2017-03-13T04:46:36.617Z",
+     "updated":"2017-03-13T04:46:36.617Z"},
+    {"text":"how much did i spend last time","created":"2017-03-13T04:46:36.617Z",
+     "updated":"2017-03-13T04:46:36.617Z"},
+    {"text":"how much money is present in my account","created":"2017-03-13T04:46:36.617Z",
+     "updated":"2017-03-13T04:46:36.617Z"},
+    {"text":"how much money was deposited recently to my account","created":"2017-03-13T04:46:36.617Z",
+     "updated":"2017-03-13T04:46:36.617Z"},
+    {"text":"What is my bank balance","created":"2017-03-13T04:46:36.617Z",
+     "updated":"2017-03-13T04:46:36.617Z"},
+    {"text":"what was the amount of money i withdrew in last transaction","created":"2017-03-13T04:46:36.617Z",
+     "updated":"2017-03-13T04:46:36.617Z"}],"description":null},
+ 
+  {"intent":"fund_transfer","created":"2017-03-14T11:15:25.900Z",
+   "updated":"2017-03-14T12:54:37.730Z","examples":[
+    {"text":"Can you transfer X amount to Y account number?","created":"2017-03-14T12:07:57.304Z",
+     "updated":"2017-03-14T12:07:57.304Z"},
+    {"text":"I want go transfer X ammount to account number Y.","created":"2017-03-14T11:29:08.412Z",
+     "updated":"2017-03-14T12:07:33.111Z"},
+    {"text":"Please, transfer X rupees to account number Y.","created":"2017-03-14T11:29:34.022Z",
+     "updated":"2017-03-14T11:29:34.022Z"},
+    {"text":"Transfer X amount to account number Y.","created":"2017-03-14T11:30:12.653Z",
+     "updated":"2017-03-14T12:11:40.514Z"},
+    {"text":"Transfer X rupees to account number Y.","created":"2017-03-14T11:31:22.709Z",
+     "updated":"2017-03-14T11:31:30.947Z"},
+    {"text":"transfer X to Y","created":"2017-03-14T12:54:37.730Z",
+     "updated":"2017-03-14T12:54:37.730Z"},
+    {"text":"Will you send X amount to Y account?","created":"2017-03-14T12:08:04.810Z",
+     "updated":"2017-03-  14T12:08:04.810Z"}],"description":null},
+  
+  {"intent":"goodbye","created":"2017-03-13T05:42:37.029Z","updated":"2017-03-13T15:48:39.906Z","examples":[
+    {"text":"bi","created":"2017-03-13T05:42:37.029Z","updated":"2017-03-13T05:42:37.029Z"},
+    {"text":"bye","created":"2017-03-13T05:42:37.029Z","updated":"2017-03-13T05:42:37.029Z"},
+    {"text":"catch you later","created":"2017-03-13T15:48:39.906Z","updated":"2017-03-13T15:48:39.906Z"},
+    {"text":"good bye","created":"2017-03-13T15:48:24.771Z","updated":"2017-03-13T15:48:24.771Z"},
+    {"text":"see you later","created":"2017-03-13T05:42:37.029Z","updated":"2017-03-13T05:42:37.029Z"},
+    {"text":"tata","created":"2017-03-13T05:42:37.029Z","updated":"2017-03-13T05:42:37.029Z"}],"description":null},
+  
+  {"intent":"hello","created":"2017-03-13T05:41:29.897Z","updated":"2017-03-13T15:47:54.725Z","examples":[
+    {"text":"good afternoon","created":"2017-03-13T15:47:54.725Z","updated":"2017-03-13T15:47:54.725Z"},
+    {"text":"good evening","created":"2017-03-13T15:47:35.575Z","updated":"2017-03-13T15:47:35.575Z"},
+    {"text":"good morning","created":"2017-03-13T05:42:08.452Z","updated":"2017-03-13T05:42:08.452Z"},
+    {"text":"haha","created":"2017-03-13T05:41:55.934Z","updated":"2017-03-13T05:41:55.934Z"},
+    {"text":"hello","created":"2017-03-13T05:41:45.877Z","updated":"2017-03-13T05:41:45.877Z"},
+    {"text":"hey","created":"2017-03-13T15:46:57.058Z","updated":"2017-03-13T15:46:57.058Z"},
+    {"text":"hi","created":"2017-03-13T05:41:49.611Z","updated":"2017-03-13T05:41:49.611Z"},
+    {"text":"yo","created":"2017-03-13T05:41:52.654Z","updated":"2017-03-13T05:41:52.654Z"}]
+   ,"description":null}],"updated":"2017-03-14T12:55:27.347Z","entities":[
+     {"type":null,"entity":"amount","source":null,"values":[
+       {"value":"dinar","created":"2017-03-14T12:09:06.984Z",
+        "updated":"2017-03-14T12:09:06.984Z",
+        "metadata":null,"synonyms":[]},
+       {"value":"dollors","created":"2017-03-14T12:08:46.720Z",
+        "updated":"2017-03-14T12:08:46.720Z",
+        "metadata":null,"synonyms":[]},
+       {"value":"euros","created":"2017-03-14T12:08:57.102Z",
+        "updated":"2017-03-14T12:08:57.102Z",
+        "metadata":null,"synonyms":[]},
+       {"value":"rupees","created":"2017-03-14T12:08:37.408Z",
+        "updated":"2017-03-14T12:08:37.408Z",
+        "metadata":null,"synonyms":[]}],"created":"2017-03-14T12:08:27.337Z",
+      "updated":"2017-03- 14T12:08:27.337Z",
+        "open_list":false,"description":null}],
+        "language":"en","metadata":null,"description":"a chatbot","dialog_nodes":  [{"go_to":null,"output":null,"parent":"node_8_1489401436432","context":null,
+        "created":"2017-03-13T15:50:46.083Z","updated":"2017-03-13T15:50:46.083Z",
+        "metadata":null,"conditions":null,"description":null,"dialog_node":"node_1_1489420242986",
+        "previous_sibling":null},{"go_to":null,"output":{},"parent":null,"context":null,
+        "created":"2017-03-14T12:36:58.265Z","updated":"2017-03-14T12:52:43.057Z","metadata":null,
+        "conditions":"#fund_transfer","description":null,"dialog_node":"transfer","previous_sibling":"initiation"},{"go_to":null,"output":
+       {"text":
+        {"values":
+         ["Sure can you provide your Registered Account Number ?"],
+         "selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-03-13T04:57:01.536Z","updated":"2017-03-13T05:35:38.469Z","metadata":null,"conditions":"#Balance_Enquiry","description":null,"dialog_node":"node_2_1489400821984","previous_sibling":"node_8_1489401436432"},{"go_to":null,"output":
+         {"text":
+          {"values":
+           ["Sure can you provide your Registered Account number ? Mail will be sent to your Registered Email Address."],
+           "selection_policy":"sequential"}},
+           "parent":null,"context":null,"created":"2017-03-13T05:07:15.951Z",
+           "updated":"2017-03-13T05:34:43.865Z","metadata":null,
+           "conditions":"#Account_Statement_to_email_id","description":null,"dialog_node":"node_8_1489401436432",
+           "previous_sibling":"transfer"},
+           {"go_to":null,"output":
+           {"text":
+            {"values":
+             ["Sure can you provide me your account number and registered email ID",
+              "May i have your account number and registered email ID"],
+             "selection_policy":"random"}},
+             "parent":"node_2_1489400821984","context":null,"created":"2017-03-13T05:05:56.069Z",
+             "updated":"2017-03-13T05:10:45.340Z","metadata":null,
+             "conditions":"#Account_Statement_to_emai",
+             "description":null,"dialog_node":"node_5_1489401355485","previous_sibling":null},
+             {"go_to":null,"output":
+             {"text":
+              {"values":
+               ["Wonderful Day to you",
+                "May the force be with you",
+                "Hakuna Matata"],
+               "selection_policy":"random"}},"parent":null,"context":null,"created":"2017-03-13T05:05:13.175Z",
+               "updated":"2017-03-13T05:43:52.931Z","metadata":null,
+               "conditions":"#hello",
+               "description":null,"dialog_node":"timewaste","previous_sibling":"node_2_1489400821984"},
+               {"go_to":null,"output":
+               {"text":
+                {"values":
+                 ["See you later",
+                  "Cool Bro Bye",
+                  "Sayonara",
+                  "Adios Amigo"],
+                 "selection_policy":"random"}},"parent":null,"context":null,"created":"2017-03-13T05:43:56.715Z",
+                 "updated":"2017-03-13T05:45:24.184Z","metadata":null,"conditions":"#goodbye",
+                 "description":null,"dialog_node":"node_19_1489403637143","previous_sibling":"timewaste"},{"go_to":null,"output":
+             {"text":
+              {"values":
+               ["Hi I'm Emma. How may I help You?",
+                "Yo, I am Emma. How may I help You?",
+                "hey. How may I help You?",
+                "hello. How may I help You?",
+                "hey. It's emma this side. How may I help You?"],
+               "selection_policy":"random"}},"parent":null,"context":null,
+               "created":"2017-03-13T04:56:22.270Z","updated":"2017-03-14T12:10:22.611Z",
+               "metadata":null,"conditions":"#hello","description":null,"dialog_node":"initiation",
+               "previous_sibling":null},
+               {"type":"response_condition","go_to":null,"output":
+                {"text":
+                 {"values":
+                  ["Sure, I will do it for you. X @amount will be transferred to account number Y."],
+                  "selection_policy":"sequential"}},"parent":"transfer",
+                "context":null,"created":"2017-03-14T12:52:42.229Z",
+                "updated":"2017-03-14T12:55:22.205Z","metadata":null,"conditions":"@amount","description":null,
+                "dialog_node":"node_3_1489495961848","previous_sibling":null}],
+ "workspace_id":"80a1ad92-fd1f-450e-89b6-e8f7feef4541","counterexamples":
+ [{"text":"love you",
+   "created":"2017-03-13T15:56:51.690Z","updated":"2017-03-13T15:56:51.690Z"}]}
